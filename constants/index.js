@@ -105,17 +105,16 @@ const profileLists = [
 ];
 
 const featureLists = [
-  "Perfectly balanced blends",
-  "Garnished to perfection",
-  "Ice-cold every time",
-  "Expertly shaken & stirred",
+  "Expertly aged in oak barrels",
+  "Served neat, on ice, or as you like",
+  "Smooth, bold, and character-rich",
+  "Perfect balance of smoke and spice",
 ];
-
 const goodLists = [
-  "Handpicked ingredients",
-  "Signature techniques",
-  "Bartending artistry in action",
-  "Freshly muddled flavors",
+  "Premium malt and grain selection",
+  "Time-honored distilling traditions",
+  "Master blender precision",
+  "Crafted for depth and complexity",
 ];
 
 const storeInfo = {

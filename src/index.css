@@ -56,7 +56,7 @@ body {
   mask-image: url("/images/mask-img.png");
   mask-repeat: no-repeat;
   mask-position: center;
-  mask-size: 50%;
+  mask-size: 70%;
 }
 
 @layer components {
@@ -257,7 +257,7 @@ body {
 
     .masked-container {
       h2 {
-        @apply font-modern-negra mt-32 mb-10 text-center text-4xl text-white md:text-5xl;
+        @apply font-modern-negra mt-38 mb-10 text-center text-4xl text-white md:text-5xl;
       }
 
       div {
