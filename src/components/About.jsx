@@ -68,7 +68,7 @@ const About = () => {
         </div>
         <div className="md:col-span-6">
           <div className="noisy" />
-          <img src="/images/abt2.jpg" alt="grid-image-1" />
+          <img src="/images/abt2.png" alt="grid-image-2" />
         </div>
         <div className="md:col-span-3">
           <div className="noisy" />
