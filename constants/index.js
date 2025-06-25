@@ -19,55 +19,73 @@ const navLinks = [
 
 const cocktailLists = [
   {
-    name: "Chapel Hill Shiraz",
-    country: "AU",
-    detail: "Battle",
-    price: "$10",
+    name: "Jack Daniel’s Old No.Seven",
+    country: "US",
+    detail: "Tennessee Whiskey",
+    price: "$25",
   },
   {
-    name: "Caten Malbee",
-    country: "AU",
-    detail: "Battle",
-    price: "$49",
+    name: "Johnnie Walker Blue Label",
+    country: "UK",
+    detail: "Blended Scotch",
+    price: "$200",
   },
   {
-    name: "Rhino Pale Ale",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
-  },
-  {
-    name: "Irish Guinness",
+    name: "Jameson Irish Whiskey",
     country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    detail: "Irish Whiskey",
+    price: "$25",
+  },
+  {
+    name: "Glenfiddich Twelve-Year",
+    country: "UK",
+    detail: "Single Malt Scotch",
+    price: "$50",
+  },
+  {
+    name: "Chivas Regal Twelve-Year",
+    country: "UK",
+    detail: "Blended Scotch",
+    price: "$45",
+  },
+  {
+    name: "Macallan Eighteen-Year",
+    country: "UK",
+    detail: "Single Malt Scotch",
+    price: "$300",
   },
 ];
 
 const mockTailLists = [
   {
-    name: "Tropical Bloom",
+    name: "Yamazaki Twelve-Year",
+    country: "JP",
+    detail: "Single Malt Japanese Whisky",
+    price: "$130",
+  },
+  {
+    name: "Maker’s Mark",
     country: "US",
-    detail: "Battle",
-    price: "$10",
+    detail: "Bourbon Whiskey",
+    price: "$35",
   },
   {
-    name: "Passionfruit Mint",
-    country: "US",
-    detail: "Battle",
-    price: "$49",
+    name: "Ballantine’s Finest",
+    country: "UK",
+    detail: "Blended Scotch",
+    price: "$25",
   },
   {
-    name: "Citrus Glow",
-    country: "CA",
-    detail: "750 ml",
-    price: "$20",
-  },
-  {
-    name: "Lavender Fizz",
+    name: "Bushmills Original",
     country: "IE",
-    detail: "600 ml",
-    price: "$29",
+    detail: "Irish Whiskey",
+    price: "$30",
+  },
+  {
+    name: "Monkey Shoulder",
+    country: "UK",
+    detail: "Blended Malt Scotch",
+    price: "$40",
   },
 ];
 
