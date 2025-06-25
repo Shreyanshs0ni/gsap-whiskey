@@ -154,35 +154,91 @@ const socials = [
 const allCocktails = [
   {
     id: 1,
-    name: "Classic Mojito",
-    image: "/images/drink1.png",
-    title: "Simple Ingredients, Bold Flavor",
+    name: "Jack Daniel’s",
+    image: "/images/whiskey1.png",
+    title: "Tennessee Spirit, Timeless Flavor",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "A true American classic, known for its smooth charcoal-mellowed character. Perfect neat, on the rocks, or in your favorite cocktail.",
   },
   {
     id: 2,
-    name: "Raspberry Mojito",
-    image: "/images/drink2.png",
-    title: "A Zesty Classic That Never Fails",
+    name: "Johnnie Walker",
+    image: "/images/whiskey2.png",
+    title: "Luxury in Every Sip",
     description:
-      "The Margarita is a classic that balances tangy lime, smooth tequila, and a touch of sweetness. Shaken, frozen, or on the rocks—it’s always crisp & refreshing.",
+      "A rare blend of Scotland’s finest whiskies, offering velvety smoke, honey, and oak. Reserved for the bold and distinguished.",
   },
   {
     id: 3,
-    name: "Violet Breeze",
-    image: "/images/drink3.png",
-    title: "Simple Ingredients, Bold Flavor",
+    name: "Jameson",
+    image: "/images/whiskey3.png",
+    title: "Triple Distilled, Twice as Smooth",
     description:
-      "Made with tequila, lime juice, and orange liqueur, the Margarita is easy to make and full of character. Add a salted rim for the perfect drink on summer nights.",
+      "Balanced and approachable with notes of vanilla, spice, and toasted wood — a staple in every Irish heart and bar.",
   },
   {
     id: 4,
-    name: "Curacao Mojito",
-    image: "/images/drink4.png",
-    title: "Crafted With Care, Poured With Love",
+    name: "Glenfiddich",
+    image: "/images/whiskey4.png",
+    title: "The Pioneer of Single Malts",
     description:
-      "Each cocktail is made with fresh ingredients and a passion for perfecting every pour, whether you're celebrating or simply relaxing.",
+      "Bright and fruity with a hint of pear. Aged in oak and bourbon casks for a smooth, mellow flavor that set the standard.",
+  },
+  {
+    id: 5,
+    name: "Chivas Regal",
+    image: "/images/whiskey5.png",
+    title: "Harmony in a Glass",
+    description:
+      "A rich and generous blend of the finest malt and grain whiskies — smooth, creamy, and endlessly sophisticated.",
+  },
+  {
+    id: 6,
+    name: "Macallan",
+    image: "/images/whiskey6.png",
+    title: "Sherry Oak Elegance",
+    description:
+      "Aged to perfection in sherry-seasoned oak, this whisky delivers unmatched richness, with notes of dried fruit, spice, and wood smoke.",
+  },
+  {
+    id: 7,
+    name: "Yamazaki",
+    image: "/images/whiskey7.png",
+    title: "Japan’s First and Finest",
+    description:
+      "A delicate, complex whisky with floral aromas, subtle spice, and refined fruitiness. The soul of Japanese craftsmanship.",
+  },
+  {
+    id: 8,
+    name: "Maker’s Mark",
+    image: "/images/whiskey8.png",
+    title: "Handcrafted and Iconic",
+    description:
+      "A soft, full-flavored bourbon made with red winter wheat — sweet, smooth, and always sealed with red wax.",
+  },
+  {
+    id: 9,
+    name: "Ballantine’s",
+    image: "/images/whiskey9.png",
+    title: "Classic Blend, Unmistakable Taste",
+    description:
+      "A light, elegant Scotch blend with notes of chocolate, vanilla, and a floral edge. Perfectly balanced and endlessly drinkable.",
+  },
+  {
+    id: 10,
+    name: "Bushmills Original",
+    image: "/images/whiskey10.png",
+    title: "Ireland’s Oldest Distillery",
+    description:
+      "Triple-distilled and incredibly smooth, with honeyed grain notes and a crisp finish — a legacy in every bottle.",
+  },
+  {
+    id: 11,
+    name: "Monkey Shoulder",
+    image: "/images/whiskey11.png",
+    title: "Playfully Smooth, Seriously Good",
+    description:
+      "A blend of Speyside single malts built for mixing or sipping. Malty, creamy, and full of fun-loving character.",
   },
 ];
 
