@@ -48,12 +48,6 @@ const cocktailLists = [
     detail: "Blended Scotch",
     price: "$45",
   },
-  {
-    name: "Macallan Eighteen-Year",
-    country: "UK",
-    detail: "Single Malt Scotch",
-    price: "$300",
-  },
 ];
 
 const mockTailLists = [
@@ -63,17 +57,18 @@ const mockTailLists = [
     detail: "Single Malt Japanese Whisky",
     price: "$130",
   },
-  {
-    name: "Maker’s Mark",
-    country: "US",
-    detail: "Bourbon Whiskey",
-    price: "$35",
-  },
+
   {
     name: "Ballantine’s Finest",
     country: "UK",
     detail: "Blended Scotch",
     price: "$25",
+  },
+  {
+    name: "Macallan Eighteen-Year",
+    country: "UK",
+    detail: "Single Malt Scotch",
+    price: "$300",
   },
   {
     name: "Bushmills Original",
@@ -208,16 +203,9 @@ const allCocktails = [
     description:
       "A delicate, complex whisky with floral aromas, subtle spice, and refined fruitiness. The soul of Japanese craftsmanship.",
   },
+
   {
     id: 8,
-    name: "Maker’s Mark",
-    image: "/images/whiskey8.png",
-    title: "Handcrafted and Iconic",
-    description:
-      "A soft, full-flavored bourbon made with red winter wheat — sweet, smooth, and always sealed with red wax.",
-  },
-  {
-    id: 9,
     name: "Ballantine’s",
     image: "/images/whiskey9.png",
     title: "Classic Blend, Unmistakable Taste",
@@ -225,7 +213,7 @@ const allCocktails = [
       "A light, elegant Scotch blend with notes of chocolate, vanilla, and a floral edge. Perfectly balanced and endlessly drinkable.",
   },
   {
-    id: 10,
+    id: 9,
     name: "Bushmills Original",
     image: "/images/whiskey10.png",
     title: "Ireland’s Oldest Distillery",
@@ -233,7 +221,7 @@ const allCocktails = [
       "Triple-distilled and incredibly smooth, with honeyed grain notes and a crisp finish — a legacy in every bottle.",
   },
   {
-    id: 11,
+    id: 10,
     name: "Monkey Shoulder",
     image: "/images/whiskey11.png",
     title: "Playfully Smooth, Seriously Good",

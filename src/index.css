@@ -276,10 +276,10 @@ body {
   }
 
   #menu {
-    @apply radial-gradient relative mt-0 w-full px-5 py-20 md:mt-40 2xl:px-0;
+    @apply radial-gradient relative mt-0 w-full px-5 md:mt-40 2xl:px-0;
 
     #m-left-leaf {
-      @apply absolute -bottom-20 left-0 w-1/3 object-contain md:w-fit;
+      @apply absolute -bottom-5 -left-10 w-1/3 object-contain md:w-fit;
     }
 
     #m-right-leaf {
@@ -287,7 +287,7 @@ body {
     }
 
     .cocktail-tabs {
-      @apply relative z-10 mb-20 grid grid-cols-2 gap-10 sm:mb-32 md:mx-auto md:max-w-6xl md:grid-cols-4 md:gap-20;
+      @apply relative z-10 mb-20 grid grid-cols-2 gap-10 sm:mb-32 md:mx-auto md:max-w-[90%] md:grid-cols-5 md:gap-10;
 
       button {
         @apply hover:text-yellow hover:border-yellow font-modern-negra cursor-pointer border-b-1 pb-2 text-xl transition-colors md:text-3xl;
@@ -311,7 +311,7 @@ body {
     }
 
     .cocktail {
-      @apply flex-center mt-10;
+      @apply flex-center;
 
       img {
         @apply h-[60vh] object-contain;
@@ -319,7 +319,7 @@ body {
     }
 
     .recipe {
-      @apply bottom-0 flex w-full justify-between gap-10 max-md:flex-col md:items-center lg:absolute;
+      @apply bottom-20 flex w-full justify-between gap-10 max-md:flex-col md:items-center lg:absolute;
 
       .info {
         @apply space-y-4 lg:translate-y-20;
@@ -362,11 +362,11 @@ body {
       }
 
       h3 {
-        @apply mb-2 text-base uppercase xl:text-base 2xl:text-lg;
+        @apply mb-4 text-base uppercase xl:text-base 2xl:text-lg;
       }
 
       p {
-        @apply text-sm lg:text-2xl 2xl:text-3xl;
+        @apply mt-2 text-sm lg:text-2xl 2xl:text-3xl;
       }
     }
 

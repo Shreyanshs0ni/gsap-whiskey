@@ -3,7 +3,6 @@ import gsap from "gsap";
 import { SplitText } from "gsap/all";
 
 const About = () => {
-    
   useGSAP(() => {
     const titleSplit = SplitText.create("#about h2", {
       type: "words",
@@ -65,25 +64,45 @@ const About = () => {
       <div className="top-grid">
         <div className="md:col-span-3">
           <div />
-          <img src="/images/abt1.jpg" alt="grid-image-1" />
+          <img
+            className="grayscale-25 sepia-25"
+            src="/images/abt1.jpg"
+            alt="grid-image-1"
+          />
         </div>
         <div className="md:col-span-6">
           <div />
-          <img src="/images/abt2.png" alt="grid-image-2" />
+          <img
+            className="grayscale-25 sepia-25"
+            src="/images/abt2.png"
+            alt="grid-image-2"
+          />
         </div>
         <div className="md:col-span-3">
           <div />
-          <img src="/images/abt5.jpg" alt="grid-image-5" />
+          <img
+            className="grayscale-25 sepia-25"
+            src="/images/abt5.jpg"
+            alt="grid-image-5"
+          />
         </div>
       </div>{" "}
       <div className="bottom-grid">
         <div className="md:col-span-8">
           <div />
-          <img src="/images/abt3.jpg" alt="grid-image-3" />
+          <img
+            className="grayscale-25 sepia-25"
+            src="/images/abt3.jpg"
+            alt="grid-image-3"
+          />
         </div>
         <div className="md:col-span-4">
           <div />
-          <img src="/images/abt4.jpg" alt="grid-image-4" />
+          <img
+            className="grayscale-25 sepia-25"
+            src="/images/abt4.jpg"
+            alt="grid-image-4"
+          />
         </div>
       </div>{" "}
     </div>
