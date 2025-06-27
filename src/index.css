@@ -194,7 +194,7 @@ body {
       @apply mt-4 text-center text-lg;
     }
     .ingredients {
-      @apply mx-auto mt-18 grid grid-cols-2 gap-10 md:grid-cols-5;
+      @apply z-20 mx-auto mt-18 grid grid-cols-2 gap-10 md:grid-cols-5;
     }
     input {
       @apply border-yellow mt-1 h-4 w-4 shrink-0 appearance-none rounded-sm border-2 bg-white checked:border-0 checked:bg-yellow-400;
@@ -215,11 +215,11 @@ body {
       @apply animate-pulse text-orange-600;
     }
     #left-gun {
-      @apply absolute bottom-1/2 left-0 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
+      @apply absolute bottom-1/2 left-0 z-10 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
     }
 
     #right-gun {
-      @apply absolute right-0 bottom-1/2 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
+      @apply absolute right-0 bottom-1/2 z-10 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
     }
   }
 
