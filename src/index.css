@@ -91,7 +91,6 @@ body {
 
   #hero {
     @apply relative z-10 min-h-dvh w-full border border-transparent;
-
     h1 {
       @apply font-modern-negra mt-40 text-center text-8xl leading-none md:mt-32 md:text-[20vw];
     }
@@ -182,6 +181,45 @@ body {
           }
         }
       }
+    }
+  }
+
+  #ai-recipe {
+    @apply flex-center relative mx-auto mt-12 h-screen flex-col gap-8 px-5 py-28 2xl:px-0;
+
+    h1 {
+      @apply font-modern-negra text-yellow mt-10 text-center text-8xl md:mt-10 md:text-[4vw];
+    }
+    p {
+      @apply mt-4 text-center text-lg;
+    }
+    .ingredients {
+      @apply mx-auto mt-18 grid grid-cols-2 gap-10 md:grid-cols-5;
+    }
+    input {
+      @apply border-yellow mt-1 h-4 w-4 shrink-0 appearance-none rounded-sm border-2 bg-white checked:border-0 checked:bg-yellow-400;
+    }
+    label {
+      @apply flex items-center space-x-2;
+    }
+    span {
+      @apply text-xl;
+    }
+    button {
+      @apply bg-yellow mt-18 rounded-full px-20 py-8 shadow-none transition-shadow duration-500 hover:cursor-pointer hover:shadow-lg hover:shadow-yellow-800;
+    }
+    h2 {
+      @apply font-modern-negra mt-2 text-center text-4xl leading-0 transition-colors duration-500 hover:text-orange-500;
+    }
+    .liquid {
+      @apply animate-pulse text-orange-600;
+    }
+    #left-gun {
+      @apply absolute bottom-1/2 left-0 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
+    }
+
+    #right-gun {
+      @apply absolute right-0 bottom-1/2 w-1/4 object-contain opacity-60 sepia-50 md:w-fit;
     }
   }
 
@@ -347,7 +385,7 @@ body {
     @apply radial-gradient relative mt-0 w-full overflow-hidden px-4 text-center md:mt-20;
 
     #f-left-leaf {
-      @apply pointer-events-none absolute bottom-0 left-0 w-1/3 lg:w-fit;
+      @apply pointer-events-none absolute -bottom-20 left-0 w-1/3 lg:w-fit;
     }
 
     #f-right-leaf {
@@ -358,7 +396,7 @@ body {
       @apply container mx-auto flex min-h-dvh flex-col justify-between gap-10 py-16 lg:py-14 2xl:py-32;
 
       h2 {
-        @apply font-modern-negra translate-y-5 text-5xl md:translate-y-0 lg:text-6xl 2xl:text-8xl;
+        @apply font-modern-negra text-yellow translate-y-5 text-5xl md:translate-y-0 lg:text-6xl 2xl:text-8xl;
       }
 
       h3 {
@@ -370,8 +408,8 @@ body {
       }
     }
 
-    .drink-img {
-      @apply pointer-events-none absolute right-0 bottom-0 w-1/3 lg:w-96;
+    .barrel-img {
+      @apply pointer-events-none absolute right-0 -bottom-10 w-1/4 rotate-y-180;
     }
   }
 }

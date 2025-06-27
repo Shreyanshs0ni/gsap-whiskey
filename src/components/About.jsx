@@ -50,14 +50,22 @@ const About = () => {
               carries our obsession with detail — turning a simple drink into a
               lasting memory.
             </p>
-            <div>
-              <p className="text-xl font-bold md:text-3xl">
-                <span>4.5</span>/5
-              </p>
-              <p className="text-white-100 text-sm">
-                More than +150000 customers
-              </p>
+            <div className="flex flex-row">
+              <div>
+                <p className="text-xl font-bold md:text-3xl">
+                  <span>4.5</span>/5
+                </p>
+              </div>
+              <div className="flex flex-row items-start justify-between">
+                <img src="/images/profile1.png" alt="" />
+                <img src="/images/profile2.png" alt="" />
+                <img src="/images/profile3.png" alt="" />
+                <img src="/images/profile4.png" alt="" />
+              </div>
             </div>
+            <p className="text-white-100 text-sm">
+              More than +150000 customers
+            </p>
           </div>
         </div>
       </div>

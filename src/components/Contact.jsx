@@ -38,7 +38,8 @@ const Contact = () => {
           ease: "power1.inOut",
         },
         "<",
-      );
+      )
+      .from(".barrel-img", { yPercent: 100 });
   });
   return (
     <footer id="contact">
@@ -52,6 +53,7 @@ const Contact = () => {
         alt="left-leaf"
         id="f-left-leaf"
       />
+      <img src="/images/barrel.png" className="barrel-img" alt="barrel" />
       <div className="content">
         <h2>Where to find Us</h2>
         <div>
@@ -67,7 +69,7 @@ const Contact = () => {
           <h3>Open Every Day</h3>
           {openingHours.map((time) => (
             <p key={time.day}>
-              {time.day}:{time.time}
+              {time.day}: {time.time}
             </p>
           ))}
         </div>

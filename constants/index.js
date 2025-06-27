@@ -4,9 +4,14 @@ const navLinks = [
     title: "Whiskeys",
   },
   {
+    id: "ai-recipe",
+    title: "Ai Recipe",
+  },
+  {
     id: "about",
     title: "About Us",
   },
+
   {
     id: "art",
     title: "The Art",
@@ -15,6 +20,40 @@ const navLinks = [
     id: "contact",
     title: "Contact",
   },
+];
+const ingredients = [
+  "Lime juice",
+  "Honey",
+  "Mint leaves",
+  "Ginger",
+  "Cinnamon",
+  "Orange juice",
+  "Apple cider vinegar",
+  "Brown sugar",
+  "Club soda",
+  "Coconut water",
+  "Lemon slices",
+  "Rosemary",
+  "Cucumber",
+  "Pineapple juice",
+  "Maple syrup",
+  "Cranberry juice",
+  "Vanilla extract",
+  "Iced tea",
+  "Sparkling water",
+  "Chili flakes",
+
+  // Indian-inspired ingredients in English
+  "Cardamom",
+  "Clove",
+  "Tamarind pulp",
+  "Black salt",
+  "Jaggery syrup",
+  "Chaat spice mix",
+  "Kokum syrup",
+  "Saffron strands",
+  "Coriander leaves",
+  "Holy basil",
 ];
 
 const cocktailLists = [
@@ -241,4 +280,5 @@ export {
   storeInfo,
   socials,
   allCocktails,
+  ingredients,
 };

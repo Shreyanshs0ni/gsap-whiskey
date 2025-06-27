@@ -7,6 +7,8 @@ import About from "./components/About";
 import Art from "./components/Art";
 import Menu from "./components/Menu";
 import Contact from "./components/Contact";
+import AiRecipe from "./components/AiRecipe";
+import { ToastContainer } from "react-toastify";
 
 gsap.registerPlugin(ScrollTrigger, SplitText);
 
@@ -16,10 +18,12 @@ const App = () => {
       <Navbar />
       <Hero />
       <Whiskeys />
+      <AiRecipe />
       <About />
       <Art />
       <Menu />
       <Contact />
+      <ToastContainer />
     </main>
   );
 };
